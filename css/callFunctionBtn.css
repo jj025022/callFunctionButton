@@ -1,0 +1,43 @@
+*{
+    font-family: 'Arial';
+}
+.rect{
+    position: relative;
+    margin: 10px auto ;
+    height: 100px;
+    width: 800px;
+}
+.ball{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #292E29;
+    background: #B4D1B9;
+    text-align: center;
+    line-height: 40px;
+    border: solid 1px ccc;
+    font-weight: 900;
+    transition: .5s;
+    cursor: pointer;
+}
+.ball:hover{
+    color: #fff;
+    transform: scale(1.1);
+}
+.ball_button{
+    position: absolute;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #ffc82f;
+    background: #1F0414;
+    text-align: center;
+    line-height: 60px;
+    border: solid 1px ccc;
+    top: 370px;
+    left: 370px;
+    z-index: 99;
+    transition: .5s;
+}
